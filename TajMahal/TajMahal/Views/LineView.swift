@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct LineView: View {
+    // variable pour stocker les données de le vue WelcomeView
+    let imageName : String
+    let leftText : String
+    let rightText : String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Image(imageName)
+            Text (leftText)
+                .foregroundColor(.gray)
+            Spacer()
+            Text(rightText)
+                .foregroundColor(.gray)
+            
+        }
+        .padding(.horizontal,16)
     }
 }
 
 #Preview {
-    LineView()
+    
+    LineView(imageName: "Horloge", leftText: "Mardi", rightText: "11h30 - 14h30・ 18h30 - 22h00")
+    LineView(imageName: "Type", leftText: "Type de service", rightText:"A emporter")
+    
+    
 }

@@ -14,6 +14,12 @@
 		42E9DCB52AF11138007CE7D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E9DCB42AF11138007CE7D0 /* Preview Assets.xcassets */; };
 		42E9DCBF2AF11439007CE7D0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E9DCBE2AF11439007CE7D0 /* WelcomeView.swift */; };
 		42E9DCC22AF117AE007CE7D0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E9DCC12AF117AE007CE7D0 /* MenuView.swift */; };
+		62A865532E8591BF00F52551 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A865522E8591BF00F52551 /* UIColor+Extension.swift */; };
+		62A865552E8591F900F52551 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A865542E8591F900F52551 /* ColorPalette.swift */; };
+		62AB245E2E8EBDBB006D2BEA /* SpiceIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB245D2E8EBDBB006D2BEA /* SpiceIndicator.swift */; };
+		62D0D4192E82F8EF0087DAD2 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D0D4182E82F8EF0087DAD2 /* LineView.swift */; };
+		62D0D41B2E83184C0087DAD2 /* LineDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D0D41A2E83184C0087DAD2 /* LineDish.swift */; };
+		62D0D41D2E83F8E20087DAD2 /* DetailDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D0D41C2E83F8E20087DAD2 /* DetailDish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		42E9DCBE2AF11439007CE7D0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		42E9DCC02AF11662007CE7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		42E9DCC12AF117AE007CE7D0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		62A865522E8591BF00F52551 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		62A865542E8591F900F52551 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		62AB245D2E8EBDBB006D2BEA /* SpiceIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceIndicator.swift; sourceTree = "<group>"; };
+		62D0D4182E82F8EF0087DAD2 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		62D0D41A2E83184C0087DAD2 /* LineDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDish.swift; sourceTree = "<group>"; };
+		62D0D41C2E83F8E20087DAD2 /* DetailDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,8 @@
 				42E9DCB32AF11138007CE7D0 /* Preview Content */,
 				428D2B502AFA851900BBA4F5 /* Model.swift */,
 				428D2B522AFA882700BBA4F5 /* ViewModel.swift */,
+				62A865522E8591BF00F52551 /* UIColor+Extension.swift */,
+				62A865542E8591F900F52551 /* ColorPalette.swift */,
 			);
 			path = TajMahal;
 			sourceTree = "<group>";
@@ -81,7 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				42E9DCBE2AF11439007CE7D0 /* WelcomeView.swift */,
+				62AB245D2E8EBDBB006D2BEA /* SpiceIndicator.swift */,
 				42E9DCC12AF117AE007CE7D0 /* MenuView.swift */,
+				62D0D41C2E83F8E20087DAD2 /* DetailDish.swift */,
+				62D0D4182E82F8EF0087DAD2 /* LineView.swift */,
+				62D0D41A2E83184C0087DAD2 /* LineDish.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,7 +132,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					42E9DCA92AF11136007CE7D0 = {
 						CreatedOnToolsVersion = 15.0;
@@ -158,8 +176,14 @@
 			files = (
 				428D2B532AFA882700BBA4F5 /* ViewModel.swift in Sources */,
 				42E9DCBF2AF11439007CE7D0 /* WelcomeView.swift in Sources */,
+				62AB245E2E8EBDBB006D2BEA /* SpiceIndicator.swift in Sources */,
+				62D0D4192E82F8EF0087DAD2 /* LineView.swift in Sources */,
+				62A865532E8591BF00F52551 /* UIColor+Extension.swift in Sources */,
+				62D0D41B2E83184C0087DAD2 /* LineDish.swift in Sources */,
+				62A865552E8591F900F52551 /* ColorPalette.swift in Sources */,
 				42E9DCC22AF117AE007CE7D0 /* MenuView.swift in Sources */,
 				42E9DCAE2AF11136007CE7D0 /* TajMahalApp.swift in Sources */,
+				62D0D41D2E83F8E20087DAD2 /* DetailDish.swift in Sources */,
 				428D2B512AFA851900BBA4F5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +226,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6FH7WNJPHQ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -265,6 +290,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6FH7WNJPHQ;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -294,7 +320,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TajMahal/Preview Content\"";
-				DEVELOPMENT_TEAM = 6FH7WNJPHQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TajMahal/Info.plist;
@@ -323,7 +348,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TajMahal/Preview Content\"";
-				DEVELOPMENT_TEAM = 6FH7WNJPHQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TajMahal/Info.plist;
