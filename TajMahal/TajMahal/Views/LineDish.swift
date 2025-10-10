@@ -10,7 +10,6 @@ import SwiftUI
 // Ecran d'affichage d'un plat en ligne.
 struct LineDish: View {
     let dish : Dish
-    
     var body: some View {
         
         HStack {
@@ -19,6 +18,7 @@ struct LineDish: View {
                 .frame(width:112, height: 86)
                 .cornerRadius(10)
             Spacer()
+            
             VStack (alignment: .leading) {
                 Text (dish.name)
                     .font(.headline)
@@ -26,7 +26,7 @@ struct LineDish: View {
                 
                 Text (dish.description)
                     .font(.subheadline)
-                // calcul de taux de piment
+            // calcul de taux de piment
                 HStack {
                     Text(dish.price)
                     Spacer()
@@ -37,6 +37,7 @@ struct LineDish: View {
         }
     }
 }
+
 #Preview {
     LineDish(dish: ViewModel().apetizerArray[0])
 }

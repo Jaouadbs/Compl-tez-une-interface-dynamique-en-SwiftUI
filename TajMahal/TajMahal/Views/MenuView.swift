@@ -27,7 +27,6 @@ struct MenuView: View {
                     Text("Entrées")
                         .textCase(nil)
                         .foregroundColor(ColorPalette.gray.color)
-                        
                 }
                 
                 Section {
@@ -39,7 +38,6 @@ struct MenuView: View {
                 } header: {
                     Text("Plats Principaux")
                         .textCase(nil)
-                    
                         .foregroundColor(ColorPalette.gray.color)
                 }
             }
@@ -55,7 +53,6 @@ struct MenuView: View {
                             Image(systemName: "chevron.left")
                         }
                         .foregroundColor(ColorPalette.black.color)
-                        
                     }
                 }
             }
