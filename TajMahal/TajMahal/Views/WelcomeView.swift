@@ -27,12 +27,11 @@ struct WelcomeView: View {
                 .padding()
                 Spacer()
                 
-                    Image("Logo")
+                Image("Logo")
                     .resizable()
                     .frame(width: 40, height: 40)
                     .padding()
             }
-            
             VStack  {
                 VStack (alignment:.leading) {
                     LineView(imageName: "Horloge", leftText: "Mardi", rightText: "11h30 - 14h30・ 18h30 - 22h00")

@@ -17,7 +17,6 @@ struct SpiceIndicator: View {
                 Image(index <= level.rawValue ? "yesPiment" : "noPiment")
                     .resizable()
                     .frame(width: 12, height: 12)
-                
             }
         }
     }
@@ -25,5 +24,4 @@ struct SpiceIndicator: View {
 
 #Preview {
     SpiceIndicator(level: .hot)
-    
 }

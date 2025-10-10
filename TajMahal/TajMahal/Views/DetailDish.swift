@@ -39,7 +39,7 @@ struct DetailDish: View {
                         .font(.subheadline)
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                // Ligne pour séparer les deux sections
+                // Ligne pour diviser les deux sections
                 Divider()
                     .overlay(ColorPalette.lightGray.color)
                 
@@ -71,7 +71,6 @@ struct DetailDish: View {
                         .foregroundColor(ColorPalette.black.color)
                     }
                 }
-                
             }
     }
 }
