@@ -24,7 +24,8 @@ struct MenuView: View {
                         }
                     }
                 } header: {
-                    Text("entrées")
+                    Text("Entrées")
+                        .textCase(nil)
                         .foregroundColor(ColorPalette.gray.color)
                         
                 }
@@ -37,7 +38,7 @@ struct MenuView: View {
                     }
                 } header: {
                     Text("Plats Principaux")
-                        .font(.system(size: 14))
+                        .textCase(nil)
                     
                         .foregroundColor(ColorPalette.gray.color)
                 }
