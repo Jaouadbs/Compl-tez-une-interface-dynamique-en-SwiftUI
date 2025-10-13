@@ -12,6 +12,7 @@ import Foundation
 struct ViewModel {
     
     // Stocke les entrées qui composent le menu du restaurant
+    // ajout de l'id et le prix dans le tableau
     let apetizerArray : [Dish] =
     [Dish(id:1, name: "Samosas aux légumes", description: "Délicieux chaussons frits garnis de légumes épicés", allergens: "Farine de blé", ingredients: "Mélange de légumes (pommes de terre, petits pois, carottes), épices indiennes, pâte à samosa, huile", spiceLevel: .light, imageName: "Samosas", price:"5.50€"),
      Dish(id:2, name: "Pakoras", description: "Beignets de légumes enrobés de pâte épicée et frits", allergens: "Sans allergènes majeurs", ingredients: "Légumes assortis (aubergines, oignons, épinards), farine de pois chiches, épices, huile", spiceLevel: .medium, imageName: "Pakoras", price: "5.00€"),
