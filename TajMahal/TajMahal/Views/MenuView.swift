@@ -14,7 +14,7 @@ struct MenuView: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        NavigationStack {
+        
             
             List {
                 Section {
@@ -56,7 +56,7 @@ struct MenuView: View {
                     }
                 }
             }
-        }
+        
         .foregroundColor(ColorPalette.offwhite.color)
     }
 }
